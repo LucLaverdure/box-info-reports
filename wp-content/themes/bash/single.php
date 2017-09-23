@@ -10,7 +10,7 @@
 		</div><div id="clearnavigation">&nbsp;</div>
 
 		<div class="post" id="post-<?php the_ID(); ?>">
-				<div class="postTitle"><div><h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2> 	<small>| <?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small></div></div>
+				<div class="postTitle"><div><h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2> 	<small>| <?php the_time('F jS, Y g:i a') ?> <!-- by <?php the_author() ?> --></small></div></div>
 			<div class="entry">
 			<pre><code> 
 				<?php the_content('<p class="serif">more &raquo;</p>'); ?>
