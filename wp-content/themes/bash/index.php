@@ -16,6 +16,7 @@
 					<pre><code> 
 						<?php the_excerpt('more &raquo;'); ?>
 					</code></pre>
+					<a class="link-more" href="<?php the_permalink() ?>">Read More &gt;</a>
 				</div>
 
 			</div>
