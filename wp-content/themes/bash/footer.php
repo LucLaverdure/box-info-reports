@@ -5,12 +5,11 @@
 	<p>_______________________________________
 	<br />
 		<a href="/"><?php bloginfo('name'); ?></a>
+		<a href="https://github.com/LucLaverdure/box-info">GitHub (Client Tools Here)</a>
+		<a href="https://github.com/LucLaverdure/box-info-reports">GitHub (Server Tools Here)</a>
 	</p>
 </div>
 </div>
-
-
 		<?php wp_footer(); ?>
-	
 </body>
 </html>
