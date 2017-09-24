@@ -43,7 +43,7 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuukkkkkkkk    kkkkkkk    uuuuuuuu  uuuu SSSS
 	<div id="headerimg">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 		<div class="description"><?php bloginfo('description'); ?></div>
-		<a target="_blank" href="/">Home</a>
+		<a href="/">Home</a>
 		<a target="_blank" href="https://github.com/LucLaverdure/box-info">GitHub (Client Tools Here)</a>
 		<a target="_blank" href="https://github.com/LucLaverdure/box-info-reports">GitHub (Server Tools Here)</a>
 	</div>
